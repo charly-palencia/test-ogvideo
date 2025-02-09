@@ -44,6 +44,12 @@ export default function VideoPage() {
   return (
     <div className="h-screen bg-black flex justify-center items-center">
         Video preview
+
+        <div className="mt-4 flex justify-center gap-4">
+            <a target="_blank" rel="noreferrer" className="text-white" href={`whatsapp://send?text=${encodeURIComponent(`${new URL(baseUrl).toString()}video.mp3`)}`}>
+                Whatsapp
+            </a>
+        </div>
     </div>
   );
 }
