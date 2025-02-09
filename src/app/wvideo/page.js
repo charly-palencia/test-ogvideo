@@ -32,8 +32,6 @@ export async function generateMetadata({ params }, parent) {
                     // secureUrl: `${new URL(baseUrl).toString()}${Video}`,
                     width: 1280,
                     height: 720,
-                    type: "text/html",
-                    alt: "Preview image for Dan Mugh's Blog",
                 },
             ],
             type: "video.other",
