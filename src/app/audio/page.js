@@ -50,7 +50,7 @@ export default function VideoPage() {
         </div>
 
         <div className="mt-4 flex justify-center gap-4">
-            <a target="_blank" rel="noreferrer" className="text-white" href={`whatsapp://send?text=${encodeURIComponent(`{new URL(baseUrl).toString()}/audio.mp3`)}`}>
+            <a target="_blank" rel="noreferrer" className="text-white" href={`whatsapp://send?text=${encodeURIComponent(`${new URL(baseUrl).toString()}/audio.mp3`)}`}>
                 Whatsapp
             </a>
         </div>
