@@ -25,10 +25,10 @@ export async function generateMetadata({ params }, parent) {
             ],
             videos: [
                 {
-                    url: Video,
-                    secureUrl: Video,
-                    width: 1200,
-                    height: 630,
+                    url: `${baseUrl}${Video}`,
+                    secureUrl: `${baseUrl}${Video}`,
+                    width: 1280,
+                    height: 720,
                     alt: "Preview image for Dan Mugh's Blog",
                     type: "text/html",
                 },
