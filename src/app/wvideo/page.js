@@ -26,10 +26,10 @@ export async function generateMetadata({ params }, parent) {
             ],
             videos: [
                 {
-                    // url: `https://www.youtube.com/embed/dgimjn-HoEQ`,
-                    // secureUrl: `https://www.youtube.com/embed/dgimjn-HoEQ`,
-                    url: `${new URL(baseUrl).toString()}${Video}`,
-                    secureUrl: `${new URL(baseUrl).toString()}${Video}`,
+                    url: `https://gamiapp-prod.b-cdn.net/gami-prod-storage/uploads/2024/12/11/srhE7X6B_Test1.mp4`,
+                    secureUrl: `https://gamiapp-prod.b-cdn.net/gami-prod-storage/uploads/2024/12/11/srhE7X6B_Test1.mp4`,
+                    // url: `${new URL(baseUrl).toString()}${Video}`,
+                    // secureUrl: `${new URL(baseUrl).toString()}${Video}`,
                     width: 1280,
                     height: 720,
                     type: "text/html",
