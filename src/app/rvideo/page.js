@@ -1,4 +1,4 @@
-const Video = '/rfile';
+const Video = 'https://app.gamiapp.io/api/v3/share/preview/JK0umhttps://app.gamiapp.io/api/v3/share/preview/JK0um';
 const Thumbnail = '/video.png';
 const baseUrl = "https://test-ogvideo-sepia.vercel.app";
 export async function generateMetadata({ params }, parent) {
