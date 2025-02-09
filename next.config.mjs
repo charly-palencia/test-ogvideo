@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+      crossOrigin: 'anonymous',
     async redirects() {
         return [
           // Basic redirect
