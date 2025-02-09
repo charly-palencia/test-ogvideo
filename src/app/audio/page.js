@@ -42,6 +42,19 @@ export default function VideoPage() {
   return (
     <div className="h-screen bg-black flex justify-center items-center">
         Audio preview
+
+        <div className="mt-4 flex justify-center gap-4">
+            <a target="_blank" rel="noreferrer" className="text-white" href={`https://wwwmessages.apple.com/business/chat?text=${encodeURIComponent(`${new URL(baseUrl).toString()}/audio.mp3`)}`}>
+                Imessage
+            </a>
+        </div>
+
+        <div className="mt-4 flex justify-center gap-4">
+            <a target="_blank" rel="noreferrer" className="text-white" href={`whatsapp://send?text=${encodeURIComponent(`{new URL(baseUrl).toString()}/audio.mp3`)}`}>
+                Whatsapp
+            </a>
+        </div>
+
     </div>
   );
 }
