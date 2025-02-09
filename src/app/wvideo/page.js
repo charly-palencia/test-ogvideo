@@ -1,4 +1,4 @@
-const Video = '/v';
+const Video = '/embed';
 const Thumbnail = '/video.png';
 const baseUrl = "https://test-ogvideo-sepia.vercel.app";
 export async function generateMetadata({ params }, parent) {
@@ -29,7 +29,6 @@ export async function generateMetadata({ params }, parent) {
                     secureUrl: `${baseUrl}${Video}`,
                     width: 1280,
                     height: 720,
-                    alt: "Preview image for Dan Mugh's Blog",
                     type: "text/html",
                 },
             ],
