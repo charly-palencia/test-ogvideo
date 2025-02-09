@@ -1,8 +1,8 @@
-const Video = '/wvideo';
+const Video = '/video.mp4';
 const Thumbnail = '/video.png';
 const baseUrl = "http://localhost:3001";
 export async function generateMetadata({ params }, parent) {
-    const title = "My video without extension";
+    const title = "My video extension";
 
     const description = "video example";
 
