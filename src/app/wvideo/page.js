@@ -30,7 +30,7 @@ export async function generateMetadata({ params }, parent) {
                     width: 1200,
                     height: 630,
                     alt: "Preview image for Dan Mugh's Blog",
-                    type: "video",
+                    type: "video/mp4",
                 },
             ],
             type: "website",
@@ -44,7 +44,7 @@ export async function generateMetadata({ params }, parent) {
 export default function VideoPage() {
   return (
     <div className="h-screen bg-black flex justify-center items-center">
-        Video preview
+        without extension Video preview
 
         <div className="mt-4 flex justify-center gap-4">
             <a target="_blank" rel="noreferrer" className="text-white" href={`whatsapp://send?text=${encodeURIComponent(`${new URL(baseUrl).toString()}video.mp3`)}`}>
