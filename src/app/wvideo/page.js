@@ -2,60 +2,60 @@ const Video = '/embed';
 const Thumbnail = '/video.png';
 const baseUrl = "https://test-ogvideo-sepia.vercel.app";
 
-export async function generateMetadata({ params }, parent) {
-    const title = "My video without extension";
+// export async function generateMetadata({ params }, parent) {
+//     const title = "My video without extension";
 
-    const description = "video example";
+//     const description = "video example";
 
-    return {
-        metadataBase: new URL(baseUrl),
-        title,
-        description,
-        openGraph: {
-            title,
-            description,
-            url: baseUrl,
-            images: [
-                {
-                    url: Thumbnail,
-                    secureUrl: Thumbnail,
-                    width: 1200,
-                    height: 630,
-                    alt: "Preview image for Dan Mugh's Blog",
-                },
-            ],
-            videos: [
-                {
-                    url: `${baseUrl}${Video}`,
-                    secureUrl: `${baseUrl}${Video}`,
-                    width: 1280,
-                    height: 720,
-                    type: "text/html",
-                },
-            ],
-            twitter: {
-                card: "player",
-                title,
-                site: baseUrl,
-                images: [
-                    {
-                        url: `${baseUrl}${Thumbnail}`,
-                        width: 1280,
-                        height: 720,
-                        alt: "Preview image for Dan Mugh's Blog",
-                    },
-                ],
-                player: {
-                    stream: `${baseUrl}${Video}`,
-                    width: 1280,
-                    height: 720
-                }
-            },
-            type: "video.other",
-            siteName: "Dan Mugh's Blog",
-        },
-    };
-}
+//     return {
+//         metadataBase: new URL(baseUrl),
+//         title,
+//         description,
+//         openGraph: {
+//             title,
+//             description,
+//             url: baseUrl,
+//             images: [
+//                 {
+//                     url: Thumbnail,
+//                     secureUrl: Thumbnail,
+//                     width: 1200,
+//                     height: 630,
+//                     alt: "Preview image for Dan Mugh's Blog",
+//                 },
+//             ],
+//             videos: [
+//                 {
+//                     url: `${baseUrl}${Video}`,
+//                     secureUrl: `${baseUrl}${Video}`,
+//                     width: 1280,
+//                     height: 720,
+//                     type: "text/html",
+//                 },
+//             ],
+//             twitter: {
+//                 card: "player",
+//                 title,
+//                 site: baseUrl,
+//                 images: [
+//                     {
+//                         url: `${baseUrl}${Thumbnail}`,
+//                         width: 1280,
+//                         height: 720,
+//                         alt: "Preview image for Dan Mugh's Blog",
+//                     },
+//                 ],
+//                 player: {
+//                     stream: `${baseUrl}${Video}`,
+//                     width: 1280,
+//                     height: 720
+//                 }
+//             },
+//             type: "video.other",
+//             siteName: "Dan Mugh's Blog",
+//         },
+//     };
+// }
 
 
 
