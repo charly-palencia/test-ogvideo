@@ -2,7 +2,7 @@ const Video = '/rfile';
 const Thumbnail = '/video.png';
 const baseUrl = "http://localhost:3001";
 export async function generateMetadata({ params }, parent) {
-    const title = "My video without extension";
+    const title = "My video without extension and redirected";
 
     const description = "video example";
 
