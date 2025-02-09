@@ -30,10 +30,10 @@ export async function generateMetadata({ params }, parent) {
                     width: 1200,
                     height: 630,
                     alt: "Preview image for Dan Mugh's Blog",
-                    type: "video/mp4",
+                    type: "text/html",
                 },
             ],
-            type: "website",
+            type: "video.other",
             siteName: "Dan Mugh's Blog",
         },
     };
