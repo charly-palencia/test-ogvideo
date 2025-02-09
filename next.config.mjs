@@ -6,7 +6,7 @@ const nextConfig = {
           // Basic redirect
           {
             source: '/rfile',
-            destination: '/embed',
+            destination: '/video.mp4',
             permanent: true,
           },
         ]
