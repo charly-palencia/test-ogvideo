@@ -1,6 +1,6 @@
 const Video = '/rfile';
 const Thumbnail = '/video.png';
-const baseUrl = "http://localhost:3001";
+const baseUrl = "https://test-ogvideo-sepia.vercel.app";
 export async function generateMetadata({ params }, parent) {
     const title = "My video without extension and redirected";
 
