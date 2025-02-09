@@ -77,6 +77,7 @@ export default function VideoPage() {
         <html>
             <head>
                 <meta name="twitter:card" content="player" />
+                <meta name="twitter:player" content={`${baseUrl}${Video}`} />
                 <meta name="twitter:player:stream" content={`${baseUrl}${Video}`} />
                 <meta name="twitter:player:width" content="1280" />
                 <meta name="twitter:player:height" content="720" />
