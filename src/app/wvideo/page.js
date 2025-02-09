@@ -26,8 +26,10 @@ export async function generateMetadata({ params }, parent) {
             ],
             videos: [
                 {
-                    url: `https://www.youtube.com/embed/dgimjn-HoEQ`,
-                    secureUrl: `https://www.youtube.com/embed/dgimjn-HoEQ`,
+                    // url: `https://www.youtube.com/embed/dgimjn-HoEQ`,
+                    // secureUrl: `https://www.youtube.com/embed/dgimjn-HoEQ`,
+                    url: `${new URL(baseUrl).toString()}${Video}`,
+                    secureUrl: `${new URL(baseUrl).toString()}${Video}`,
                     width: 1280,
                     height: 720,
                     type: "text/html",
