@@ -2,19 +2,6 @@ const Video = '/embed';
 const Thumbnail = '/video.png';
 const baseUrl = "https://test-ogvideo-sepia.vercel.app";
 
-export function TwitterPlayerMeta() {
-    const metadata = {
-      title: 'Awesome Video Content',
-      description: 'Check out this amazing video!',
-      previewImage: 'https://example.com/video-preview.jpg',
-      playerUrl: 'https://example.com/video-embed',
-      twitterHandle: '@yourhandle',
-      width: 480,
-      height: 480
-    }
-    return metadata;
-}
-
 export async function generateMetadata({ params }, parent) {
     const title = "My video without extension";
 
