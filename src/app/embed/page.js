@@ -7,7 +7,7 @@ export default function VideoPage() {
       <video
         controls
         className="max-w-full h-auto"
-        src={"/video.mp4"}
+        src={"https://gamiapp-prod.b-cdn.net/gami-prod-storage/uploads/2024/12/11/srhE7X6B_Test1.mp4"}
         style={{
           width: "793px",
           height: "446px",
